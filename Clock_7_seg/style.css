@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.number1,
+.number2,
+.number3,
+.number4,
+.number5,
+.number6 {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.number1 {
+  margin-right: 0;
+}
+
+.clock-wrapper {
+  display: flex;
+}
+
+.dots {
+  display: flex;
+  font-size: 70px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.number-top-part,
+.number-bottom-part {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #c8c8c8;
+  border-bottom: none;
+}
+
+.number-bottom-part {
+  height: 60px;
+  border-bottom: 10px solid #c8c8c8;
+}
+
+.seg1,
+.seg4 {
+  border-top: 10px solid black;
+}
+
+.seg2,
+.seg5 {
+  border-right: 10px solid black;
+}
+
+.seg3,
+.seg7 {
+  border-left: 10px solid black;
+}
+
+.seg6 {
+  border-bottom: 10px solid black;
+}
